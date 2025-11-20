@@ -1,3 +1,3 @@
 export default function handler(req, res) {
-  res.status(200).send("NBQ App working successfully!");
+  res.status(200).json({ message: "NBQ App running successfully!" });
 }
